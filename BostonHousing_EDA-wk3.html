@@ -174,7 +174,7 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># import libraries </span>
@@ -191,7 +191,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># Read housing data set csv into memory</span>
@@ -208,7 +208,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># Upper case all data frame column names</span>
@@ -261,7 +261,7 @@ Number of features in data set -  14
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[53]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[25]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -463,7 +463,7 @@ Number of features in data set -  14
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="k">print</span> <span class="n">data</span><span class="o">.</span><span class="n">columns</span>
@@ -492,7 +492,7 @@ Number of features in data set -  14
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># As part of my research, I&#39;m interested in seeing the correlation between MEDV and </span>
@@ -549,7 +549,7 @@ Number of features in data set -  14
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[56]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c">#setting variables you will be working with to numeric</span>
@@ -580,7 +580,7 @@ Number of features in data set -  14
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># NOX indicates nitric oxides concentration - parts per 10 million</span>
@@ -671,7 +671,7 @@ Percentages for NOX
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[57]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[7]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -747,7 +747,7 @@ Name: NOX, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">data</span><span class="p">[</span><span class="s">&quot;NOX&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">hist</span><span class="p">()</span>
@@ -761,11 +761,11 @@ Name: NOX, dtype: float64</pre>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[58]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[8]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0xaf351d0&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x87c5bb0&gt;</pre>
 </div>
 
 </div>
@@ -886,11 +886,12 @@ kCRhGEiSMAwkSRgGkiTg/wGnflz0nB0xQAAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="sd">&#39;&#39;&#39;</span>
 <span class="sd">NOX values have a range of 0.486 , spread across values (0.385 , 0.871). There are no missing values.</span>
+<span class="sd">Distribution seems to be skewed to rights</span>
 <span class="sd">&#39;&#39;&#39;</span>
 </pre></div>
 
@@ -902,11 +903,11 @@ kCRhGEiSMAwkSRgGkiTg/wGnflz0nB0xQAAAAABJRU5ErkJggg==
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[60]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[9]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&apos;\nNOX values have a range of 0.486 , spread across values (0.385 , 0.871). There are no missing values.\n&apos;</pre>
+<pre>&apos;\nNOX values have a range of 0.486 , spread across values (0.385 , 0.871). There are no missing values.\nDistribution seems to be skewed to rights\n&apos;</pre>
 </div>
 
 </div>
@@ -917,7 +918,45 @@ kCRhGEiSMAwkSRgGkiTg/wGnflz0nB0xQAAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[61]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="n">data</span><span class="p">[</span><span class="s">&#39;NOX_Q&#39;</span><span class="p">]</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">qcut</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">NOX</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="s">&quot;1=0%tile&quot;</span><span class="p">,</span><span class="s">&quot;2=25%tile&quot;</span><span class="p">,</span><span class="s">&quot;3=50%tile&quot;</span><span class="p">,</span><span class="s">&quot;4=75%tile&quot;</span><span class="p">])</span>
+<span class="k">print</span> <span class="n">data</span><span class="p">[</span><span class="s">&#39;NOX_Q&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">sort</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">dropna</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">data</span><span class="p">[</span><span class="s">&#39;NOX_Q&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">sort</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">dropna</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span><span class="n">normalize</span><span class="o">=</span><span class="s">&#39;True&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>1=0%tile     129
+2=25%tile    143
+3=50%tile    110
+4=75%tile    124
+dtype: int64
+1=0%tile    0.254941
+2=25%tile   0.282609
+3=50%tile   0.217391
+4=75%tile   0.245059
+dtype: float64
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># RAD is an index of accessibility to radial highways </span>
@@ -958,11 +997,11 @@ Percentages for RAD
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[61]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[11]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0xb075d70&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x89e68d0&gt;</pre>
 </div>
 
 </div>
@@ -1066,7 +1105,7 @@ rkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># CHAS indicates if tract is bound by Charles River or not</span>
@@ -1098,7 +1137,7 @@ Percentages for CHAS
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[62]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[12]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -1115,7 +1154,7 @@ Name: CHAS, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[63]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># DIS is weighted distance to five Boston employment centres </span>
@@ -1207,11 +1246,11 @@ Percentages for DIS
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[63]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[13]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0xb4c1b50&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x3161b50&gt;</pre>
 </div>
 
 </div>
@@ -1332,7 +1371,7 @@ ktRiMEiSWgwGSVKLwSBJajEYJEktBoMkqcVgkCS1/H8ItiTJVcRz3QAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># RM indicates average number of rooms per dwelling</span>
@@ -1425,7 +1464,7 @@ Percentages for RM
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[64]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[14]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -1511,7 +1550,7 @@ Name: RM, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># RM indicates average number of rooms per dwelling</span>
@@ -1548,7 +1587,7 @@ Percentages for RM_ABS
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[65]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[15]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -1569,10 +1608,20 @@ Name: RM_ABS, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># print data.shape</span>
+
+<span class="c">#Frequency ditribution of &quot;AGE&quot;  feature</span>
+<span class="k">print</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">** Frequency ditribution of AGE feature **&quot;</span>
+<span class="k">print</span> <span class="n">data</span><span class="p">[</span><span class="s">&quot;AGE&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+
+<span class="k">print</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">** Percentages for AGE **&quot;</span>
+<span class="c"># percentage Frequency ditribution of &quot;AGE&quot; feature</span>
+<span class="k">print</span> <span class="n">data</span><span class="p">[</span><span class="s">&quot;AGE&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">normalize</span><span class="o">=</span><span class="s">&#39;True&#39;</span><span class="p">,</span><span class="n">dropna</span><span class="o">=</span><span class="s">&#39;False&#39;</span><span class="p">)</span>
+<span class="n">data</span> <span class="p">[</span><span class="s">&quot;AGE&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">hist</span><span class="p">()</span>
+
 
 <span class="c"># Create bins for AGE variable - converting continuous variable ranges into bins</span>
 <span class="n">bins</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">25</span><span class="p">,</span><span class="mi">50</span><span class="p">,</span><span class="mi">75</span><span class="p">,</span><span class="mi">100</span><span class="p">]</span>
@@ -1606,6 +1655,134 @@ Name: RM_ABS, dtype: float64</pre>
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
+** Frequency ditribution of AGE feature **
+100.000000    43
+87.900000      4
+96.000000      4
+98.200000      4
+97.900000      4
+98.800000      4
+95.400000      4
+96.200000      3
+32.200000      3
+21.400000      3
+97.000000      3
+94.100000      3
+76.500000      3
+95.600000      3
+97.400000      3
+36.600000      3
+92.600000      3
+88.000000      3
+98.900000      3
+97.300000      3
+58.700000      2
+91.800000      2
+98.100000      2
+59.700000      2
+95.000000      2
+27.700000      2
+87.300000      2
+31.900000      2
+94.700000      2
+95.300000      2
+              ..
+35.700000      1
+92.200000      1
+40.300000      1
+68.100000      1
+19.100000      1
+52.800000      1
+83.700000      1
+95.700000      1
+96.900000      1
+94.000000      1
+68.800000      1
+88.800000      1
+53.700000      1
+14.700000      1
+59.600000      1
+88.200000      1
+89.000000      1
+43.700000      1
+73.100000      1
+67.200000      1
+56.100000      1
+28.400000      1
+20.100000      1
+31.300000      1
+68.200000      1
+73.900000      1
+32.100000      1
+65.100000      1
+49.100000      1
+84.500000      1
+Name: AGE, dtype: int64
+
+** Percentages for AGE **
+100.000000   0.084980
+87.900000    0.007905
+96.000000    0.007905
+98.200000    0.007905
+97.900000    0.007905
+98.800000    0.007905
+95.400000    0.007905
+96.200000    0.005929
+32.200000    0.005929
+21.400000    0.005929
+97.000000    0.005929
+94.100000    0.005929
+76.500000    0.005929
+95.600000    0.005929
+97.400000    0.005929
+36.600000    0.005929
+92.600000    0.005929
+88.000000    0.005929
+98.900000    0.005929
+97.300000    0.005929
+58.700000    0.003953
+91.800000    0.003953
+98.100000    0.003953
+59.700000    0.003953
+95.000000    0.003953
+27.700000    0.003953
+87.300000    0.003953
+31.900000    0.003953
+94.700000    0.003953
+95.300000    0.003953
+               ...   
+35.700000    0.001976
+92.200000    0.001976
+40.300000    0.001976
+68.100000    0.001976
+19.100000    0.001976
+52.800000    0.001976
+83.700000    0.001976
+95.700000    0.001976
+96.900000    0.001976
+94.000000    0.001976
+68.800000    0.001976
+88.800000    0.001976
+53.700000    0.001976
+14.700000    0.001976
+59.600000    0.001976
+88.200000    0.001976
+89.000000    0.001976
+43.700000    0.001976
+73.100000    0.001976
+67.200000    0.001976
+56.100000    0.001976
+28.400000    0.001976
+20.100000    0.001976
+31.300000    0.001976
+68.200000    0.001976
+73.900000    0.001976
+32.100000    0.001976
+65.100000    0.001976
+49.100000    0.001976
+84.500000    0.001976
+Name: AGE, dtype: float64
+
 ** Frequency ditribution of AGE_GRP derived feature **
 very-old        262
 modern           98
@@ -1623,13 +1800,126 @@ dtype: float64
 </div>
 </div>
 
+<div class="output_area"><div class="prompt"></div>
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+"
+>
+</div>
+
+</div>
+
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[67]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">data</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="s">&quot;PTRATIO&quot;</span><span class="p">,</span><span class="s">&quot;MEDV&quot;</span><span class="p">)</span>
@@ -1643,11 +1933,11 @@ dtype: float64
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[67]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[17]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0xb37a0d0&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x8cc6c30&gt;</pre>
 </div>
 
 </div>
@@ -1897,7 +2187,69 @@ KgFFUZQUo0pAURQlxagSUBRFSTGqBBRFUVLM/wcEZCffg6qABAAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="k">print</span> <span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">crosstab</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#39;AGE_GRP&#39;</span><span class="p">],</span> <span class="n">data</span><span class="p">[</span><span class="s">&#39;AGE&#39;</span><span class="p">]))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>AGE           2.900000    6.000000    6.200000    6.500000    6.600000    \
+AGE_GRP                                                                    
+ultra-modern           1           1           1           1           2   
+modern                 0           0           0           0           0   
+old                    0           0           0           0           0   
+very-old               0           0           0           0           0   
+
+AGE           6.800000    7.800000    8.400000    8.900000    9.800000    \
+AGE_GRP                                                                    
+ultra-modern           1           2           1           1           1   
+modern                 0           0           0           0           0   
+old                    0           0           0           0           0   
+very-old               0           0           0           0           0   
+
+AGE              ...      98.200000   98.300000   98.400000   98.500000   \
+AGE_GRP          ...                                                       
+ultra-modern     ...               0           0           0           0   
+modern           ...               0           0           0           0   
+old              ...               0           0           0           0   
+very-old         ...               4           2           2           1   
+
+AGE           98.700000   98.800000   98.900000   99.100000   99.300000   \
+AGE_GRP                                                                    
+ultra-modern           0           0           0           0           0   
+modern                 0           0           0           0           0   
+old                    0           0           0           0           0   
+very-old               1           4           3           1           1   
+
+AGE           100.000000  
+AGE_GRP                   
+ultra-modern           0  
+modern                 0  
+old                    0  
+very-old              43  
+
+[4 rows x 356 columns]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">data</span><span class="p">[</span><span class="s">&quot;PTRATIO&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">hist</span><span class="p">()</span>
@@ -1911,11 +2263,11 @@ KgFFUZQUo0pAURQlxagSUBRFSTGqBBRFUVLM/wcEZCffg6qABAAAAABJRU5ErkJggg==
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[68]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[18]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0xb0f4890&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x8ba1c10&gt;</pre>
 </div>
 
 </div>
@@ -2040,7 +2392,7 @@ YJAktRgMkqSW/w9M1Q7UX9H6sQAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[69]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># PTRATIO refers to pupil - Teacher ratio . The lower it is, the better education is.</span>
@@ -2085,7 +2437,7 @@ Percentages for PTRATIO_ABS
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[69]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[19]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -2221,7 +2573,7 @@ SS0WgySp5f8Dxfi0I+QZlxAAAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[70]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="sd">&#39;&#39;&#39;</span>
@@ -2284,7 +2636,7 @@ Name: LSTAT_ABS, dtype: int64
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[70]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[20]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -2333,7 +2685,7 @@ Name: LSTAT_ABS, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[71]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">data</span><span class="p">[</span><span class="s">&quot;LSTAT_ABS&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">hist</span><span class="p">()</span>
@@ -2347,11 +2699,11 @@ Name: LSTAT_ABS, dtype: float64</pre>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[71]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[21]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0xb8ac230&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x8e52050&gt;</pre>
 </div>
 
 </div>
@@ -2468,7 +2820,7 @@ DyKy7A9paY8AAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># Create bins for LSTAT variable</span>
@@ -2496,7 +2848,7 @@ DyKy7A9paY8AAAAASUVORK5CYII=
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>(506, 13)
+<pre>(506, 15)
 
 ** Frequency ditribution of LSTAT_GRP derived feature **
 lt_10       219
@@ -2515,7 +2867,7 @@ dtype: float64
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[72]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[34]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -2523,191 +2875,213 @@ dtype: float64
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>MEDV</th>
-      <th>NOX</th>
-      <th>RAD</th>
+      <th>CRIM</th>
+      <th>ZN</th>
+      <th>INDUS</th>
       <th>CHAS</th>
-      <th>DIS</th>
-      <th>PTRATIO</th>
-      <th>LSTAT</th>
+      <th>NOX</th>
       <th>RM</th>
       <th>AGE</th>
-      <th>RM_ABS</th>
+      <th>DIS</th>
+      <th>RAD</th>
+      <th>TAX</th>
+      <th>PTRATIO</th>
+      <th>B</th>
+      <th>LSTAT</th>
+      <th>MEDV</th>
       <th>AGE_GRP</th>
-      <th>PTRATIO_ABS</th>
-      <th>LSTAT_ABS</th>
       <th>LSTAT_GRP</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>24.000000</td>
-      <td>0.538000</td>
-      <td>1</td>
+      <td>0.006320</td>
+      <td>18.000000</td>
+      <td>2.310000</td>
       <td>0</td>
-      <td>4.090000</td>
-      <td>15.300000</td>
-      <td>4.980000</td>
+      <td>0.538000</td>
       <td>6.575000</td>
       <td>65.200000</td>
-      <td>7</td>
+      <td>4.090000</td>
+      <td>1</td>
+      <td>296</td>
+      <td>15.300000</td>
+      <td>396.900000</td>
+      <td>4.980000</td>
+      <td>24.000000</td>
       <td>old</td>
-      <td>15</td>
-      <td>4</td>
       <td>lt_10</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>21.600000</td>
-      <td>0.469000</td>
-      <td>2</td>
+      <td>0.027310</td>
+      <td>0.000000</td>
+      <td>7.070000</td>
       <td>0</td>
-      <td>4.967100</td>
-      <td>17.800000</td>
-      <td>9.140000</td>
+      <td>0.469000</td>
       <td>6.421000</td>
       <td>78.900000</td>
-      <td>6</td>
+      <td>4.967100</td>
+      <td>2</td>
+      <td>242</td>
+      <td>17.800000</td>
+      <td>396.900000</td>
+      <td>9.140000</td>
+      <td>21.600000</td>
       <td>very-old</td>
-      <td>17</td>
-      <td>9</td>
       <td>lt_10</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>34.700000</td>
-      <td>0.469000</td>
-      <td>2</td>
+      <td>0.027290</td>
+      <td>0.000000</td>
+      <td>7.070000</td>
       <td>0</td>
-      <td>4.967100</td>
-      <td>17.800000</td>
-      <td>4.030000</td>
+      <td>0.469000</td>
       <td>7.185000</td>
       <td>61.100000</td>
-      <td>7</td>
+      <td>4.967100</td>
+      <td>2</td>
+      <td>242</td>
+      <td>17.800000</td>
+      <td>392.830000</td>
+      <td>4.030000</td>
+      <td>34.700000</td>
       <td>old</td>
-      <td>17</td>
-      <td>4</td>
       <td>lt_10</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>33.400000</td>
-      <td>0.458000</td>
-      <td>3</td>
+      <td>0.032370</td>
+      <td>0.000000</td>
+      <td>2.180000</td>
       <td>0</td>
-      <td>6.062200</td>
-      <td>18.700000</td>
-      <td>2.940000</td>
+      <td>0.458000</td>
       <td>6.998000</td>
       <td>45.800000</td>
-      <td>7</td>
+      <td>6.062200</td>
+      <td>3</td>
+      <td>222</td>
+      <td>18.700000</td>
+      <td>394.630000</td>
+      <td>2.940000</td>
+      <td>33.400000</td>
       <td>modern</td>
-      <td>18</td>
-      <td>2</td>
       <td>lt_10</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>36.200000</td>
-      <td>0.458000</td>
-      <td>3</td>
+      <td>0.069050</td>
+      <td>0.000000</td>
+      <td>2.180000</td>
       <td>0</td>
-      <td>6.062200</td>
-      <td>18.700000</td>
-      <td>5.330000</td>
+      <td>0.458000</td>
       <td>7.147000</td>
       <td>54.200000</td>
-      <td>7</td>
+      <td>6.062200</td>
+      <td>3</td>
+      <td>222</td>
+      <td>18.700000</td>
+      <td>396.900000</td>
+      <td>5.330000</td>
+      <td>36.200000</td>
       <td>old</td>
-      <td>18</td>
-      <td>5</td>
       <td>lt_10</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>28.700000</td>
-      <td>0.458000</td>
-      <td>3</td>
+      <td>0.029850</td>
+      <td>0.000000</td>
+      <td>2.180000</td>
       <td>0</td>
-      <td>6.062200</td>
-      <td>18.700000</td>
-      <td>5.210000</td>
+      <td>0.458000</td>
       <td>6.430000</td>
       <td>58.700000</td>
-      <td>6</td>
+      <td>6.062200</td>
+      <td>3</td>
+      <td>222</td>
+      <td>18.700000</td>
+      <td>394.120000</td>
+      <td>5.210000</td>
+      <td>28.700000</td>
       <td>old</td>
-      <td>18</td>
-      <td>5</td>
       <td>lt_10</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>22.900000</td>
-      <td>0.524000</td>
-      <td>5</td>
+      <td>0.088290</td>
+      <td>12.500000</td>
+      <td>7.870000</td>
       <td>0</td>
-      <td>5.560500</td>
-      <td>15.200000</td>
-      <td>12.430000</td>
+      <td>0.524000</td>
       <td>6.012000</td>
       <td>66.600000</td>
-      <td>6</td>
+      <td>5.560500</td>
+      <td>5</td>
+      <td>311</td>
+      <td>15.200000</td>
+      <td>395.600000</td>
+      <td>12.430000</td>
+      <td>22.900000</td>
       <td>old</td>
-      <td>15</td>
-      <td>12</td>
       <td>10_to_20</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>27.100000</td>
-      <td>0.524000</td>
-      <td>5</td>
+      <td>0.144550</td>
+      <td>12.500000</td>
+      <td>7.870000</td>
       <td>0</td>
-      <td>5.950500</td>
-      <td>15.200000</td>
-      <td>19.150000</td>
+      <td>0.524000</td>
       <td>6.172000</td>
       <td>96.100000</td>
-      <td>6</td>
+      <td>5.950500</td>
+      <td>5</td>
+      <td>311</td>
+      <td>15.200000</td>
+      <td>396.900000</td>
+      <td>19.150000</td>
+      <td>27.100000</td>
       <td>very-old</td>
-      <td>15</td>
-      <td>19</td>
       <td>10_to_20</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>16.500000</td>
-      <td>0.524000</td>
-      <td>5</td>
+      <td>0.211240</td>
+      <td>12.500000</td>
+      <td>7.870000</td>
       <td>0</td>
-      <td>6.082100</td>
-      <td>15.200000</td>
-      <td>29.930000</td>
+      <td>0.524000</td>
       <td>5.631000</td>
       <td>100.000000</td>
-      <td>6</td>
+      <td>6.082100</td>
+      <td>5</td>
+      <td>311</td>
+      <td>15.200000</td>
+      <td>386.630000</td>
+      <td>29.930000</td>
+      <td>16.500000</td>
       <td>very-old</td>
-      <td>15</td>
-      <td>29</td>
       <td>20_to_30</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>18.900000</td>
-      <td>0.524000</td>
-      <td>5</td>
+      <td>0.170040</td>
+      <td>12.500000</td>
+      <td>7.870000</td>
       <td>0</td>
-      <td>6.592100</td>
-      <td>15.200000</td>
-      <td>17.100000</td>
+      <td>0.524000</td>
       <td>6.004000</td>
       <td>85.900000</td>
-      <td>6</td>
+      <td>6.592100</td>
+      <td>5</td>
+      <td>311</td>
+      <td>15.200000</td>
+      <td>386.710000</td>
+      <td>17.100000</td>
+      <td>18.900000</td>
       <td>very-old</td>
-      <td>15</td>
-      <td>17</td>
       <td>10_to_20</td>
     </tr>
   </tbody>
@@ -2723,13 +3097,55 @@ dtype: float64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre> 
+<div class=" highlight hl-ipython2"><pre><span class="k">print</span> <span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">crosstab</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#39;LSTAT_GRP&#39;</span><span class="p">],</span> <span class="n">data</span><span class="p">[</span><span class="s">&#39;LSTAT&#39;</span><span class="p">]))</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>LSTAT      1.730000   1.920000   1.980000   2.470000   2.870000   2.880000   \
+LSTAT_GRP                                                                     
+lt_10              1          1          1          1          1          1   
+10_to_20           0          0          0          0          0          0   
+20_to_30           0          0          0          0          0          0   
+gt_30              0          0          0          0          0          0   
+
+LSTAT      2.940000   2.960000   2.970000   2.980000     ...      30.620000  \
+LSTAT_GRP                                                ...                  
+lt_10              1          1          1          1    ...              0   
+10_to_20           0          0          0          0    ...              0   
+20_to_30           0          0          0          0    ...              0   
+gt_30              0          0          0          0    ...              1   
+
+LSTAT      30.630000  30.810000  31.990000  34.020000  34.370000  34.410000  \
+LSTAT_GRP                                                                     
+lt_10              0          0          0          0          0          0   
+10_to_20           0          0          0          0          0          0   
+20_to_30           0          0          0          0          0          0   
+gt_30              1          2          1          1          1          1   
+
+LSTAT      34.770000  36.980000  37.970000  
+LSTAT_GRP                                   
+lt_10              0          0          0  
+10_to_20           0          0          0  
+20_to_30           0          0          0  
+gt_30              1          1          1  
+
+[4 rows x 455 columns]
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
